@@ -7,11 +7,13 @@ use utils::Solution;
 use crate::days::day1::Day1;
 use crate::days::day2::Day2;
 use crate::days::day3::Day3;
+use crate::days::day4::Day4;
 
 fn main() {
     run_day::<Day1>();
     run_day::<Day2>();
     run_day::<Day3>();
+    run_day::<Day4>();
 }
 
 fn get_input(day: usize) -> String {

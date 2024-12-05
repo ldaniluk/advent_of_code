@@ -87,7 +87,7 @@ mod test {
         "xmul(2,4)&mul[3,7]!^don't()_mul(5,5)+mul(32,64](mul(11,8)undo()?mul(8,5))";
 
     #[test]
-    fn test_parse__only_mul() {
+    fn test_parse_only_mul() {
         assert_eq!(
             parse(SAMPLE_INPUT_ONLY_MUL),
             vec!(
@@ -99,7 +99,7 @@ mod test {
         );
     }
     #[test]
-    fn test_parse__combined() {
+    fn test_parse_combined() {
         assert_eq!(
             parse(SAMPLE_INPUT_COMBINED),
             vec!(
